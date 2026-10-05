@@ -28,7 +28,7 @@ export const siteConfig: SiteConfig = {
 	*/
 	title: "Jimjimu Notes",
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
-	url: "https://jim-jimu.github.io/",
+	url: "https://jinyike.dev/jimjimu-notes/",
 };
 
 export const giscusConfig = {
@@ -45,6 +45,10 @@ export const commentDisplayConfig = {
 
 // Used to generate links in both the Header & Footer.
 export const menuLinks: { path: string; title: string }[] = [
+	{
+		path: "https://jinyike.dev/",
+		title: "Academic",
+	},
 	{
 		path: "/",
 		title: "Home",
